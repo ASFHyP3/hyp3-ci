@@ -1,3 +1,3 @@
-# Hyp3 CI
+# HyP3 Ci
 
-Space to play with CI/CD pipelines for HyP3
+HyP3 plugin for ci processing

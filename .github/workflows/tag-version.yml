@@ -36,7 +36,7 @@ jobs:
           name: ${{ github.event.repository.name }}
 
       - name: Tag version
-        uses: ASFHyP3/actions/bump-version@master
+        uses: ASFHyP3/actions/bump-version@main
         with:
           user: tools-bot
           email: UAF-asf-apd@alaska.edu

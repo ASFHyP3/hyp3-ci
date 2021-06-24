@@ -23,7 +23,6 @@ def proc_ci(greeting: str = 'Hello world!') -> Path:
     return product_file
 
 
-
 def main():
     """proc_ci entrypoint"""
     parser = argparse.ArgumentParser(

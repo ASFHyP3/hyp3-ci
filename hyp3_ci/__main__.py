@@ -28,7 +28,6 @@ def main():
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                         datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)
 
-
     product_file = hyp3_ci.proc_ci(
             gretting=args.greeting,
     )

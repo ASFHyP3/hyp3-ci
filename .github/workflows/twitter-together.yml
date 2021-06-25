@@ -4,14 +4,12 @@ on:
       - develop
     paths:
       - 'tweets/**'
-      - '**.twitter-together.yml'
+      - '**twitter-together.yml'
 
   pull_request:
-    branches:
-      - develop
     paths:
       - 'tweets/**'
-      - '**.twitter-together.yml'
+      - '**twitter-together.yml'
 
 name: Twitter, together!
 jobs:

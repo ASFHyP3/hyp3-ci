@@ -1,2 +1,5 @@
 # These owners will be requested for review when someone opens a pull request.
 *       @ASFHyP3/plugins
+
+# Reviewers for all tweets
+tweets/ @ASFHyP3/documentation

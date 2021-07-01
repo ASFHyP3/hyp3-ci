@@ -1,0 +1,19 @@
+name: Notify Downstream of New Release
+
+on:
+  release:
+    types:
+      - released
+
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tweet release notes
+        uses: benc-uk/workflow-dispatch@v1.1
+        with:
+          workflow: Propose Tweet
+          token: ${{ secrets.TOOLS_BOT_PAK }}
+          repo: ASFHyP3/hyp3-ci
+          ref: develop
+          inputs: '{"message": "## ${{ github.event.release.name }}\n${{ github.event.release.body }}"}'

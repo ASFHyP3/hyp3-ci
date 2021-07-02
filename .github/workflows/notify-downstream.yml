@@ -17,4 +17,4 @@ jobs:
           repo: ASFHyP3/hyp3-ci
           ref: develop
           inputs: >
-            {"message": "${{ toJSON(format('## {0}\n{1}', github.event.release.name, github.event.release.body)) }}"}
+            {"message": ${{ toJSON(format('## {0}{1}', github.event.release.name, github.event.release.body)) }} }

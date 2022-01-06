@@ -16,8 +16,6 @@ jobs:
     with:
       local_package_name: hyp3_ci
       conda_env_name: hyp3-ci
-      python_version: >-
-        ["3.8", "3.9", "3.10"]
 
 #  call-version-info-workflow:
 #    uses: ASFHyP3/actions/.github/workflows/reusable-version-info.yml@main

@@ -5,7 +5,7 @@ on:
     types:
       - opened
     branches:
-      - devekio
+      - develop
 
 jobs:
   call-release-workflow:

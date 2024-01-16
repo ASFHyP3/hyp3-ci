@@ -33,7 +33,7 @@ setup(
     python_requires='~=3.8',
 
     install_requires=[
-        'hyp3lib',
+        'hyp3lib>=3,<4',
     ],
 
     extras_require={
